@@ -6,7 +6,7 @@ import time
 class deleter():
     def createBrowserInstance(self):
         self.browser = webdriver.Chrome()
-        self.browser.get("http://www.baidu.com") 
+        self.browser.get("http://www.weibo.com") 
 
     def deleteBrowserInstance(self):
         self.browser.close()
